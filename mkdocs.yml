@@ -1,0 +1,11 @@
+site_name: Vaccination Data Analysis
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocs-jupyter
+
+nav:
+  - Home: index.md
+  - Notebook: vaccination_analysis.ipynb

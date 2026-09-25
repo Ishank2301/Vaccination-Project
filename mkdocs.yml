@@ -1,4 +1,4 @@
-site_name: Vaccination Data Analysis
+site_name: Global Vaccination Analytics
 theme:
   name: material
 
@@ -8,4 +8,4 @@ plugins:
 
 nav:
   - Home: index.md
-  - Notebook: vaccination_analysis.ipynb
+  - Notebook: Global_Vaccination_Analytics.ipynb

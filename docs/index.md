@@ -1,6 +1,6 @@
 <div align="center">
 
-# Vaccination Data Analysis and Visualization
+# Global Vaccination Analytics
 
 **Data Cleaning, Exploratory Data Analysis, SQL Database, and Power BI Dashboard for Global Vaccination Data**
 
@@ -136,7 +136,7 @@ Four interactive dashboard pages were built in Power BI Desktop, connected to `v
 ```
 Vaccination-Data-Analysis/
 │
-├── Vaccination_Analysis.ipynb       ← Main notebook (108 cells, 40 code, 68 markdown)
+├── Global_Vaccination_Analytics.ipynb       ← Main notebook (108 cells, 40 code, 68 markdown)
 ├── requirements.txt                 ← Python dependencies (5 packages)
 ├── .gitignore                       ← Git ignore rules
 ├── README.md                        ← This file
@@ -189,8 +189,8 @@ Vaccination-Data-Analysis/
 ### Python Notebook
 
 ```bash
-git clone https://github.com/<your-username>/Vaccination-Data-Analysis.git
-cd Vaccination-Data-Analysis
+git clone https://github.com/Ishank2301/Global-Vaccination-Analytics.git
+cd Global-Vaccination-Analytics
 
 pip install -r requirements.txt
 ```
@@ -198,7 +198,7 @@ pip install -r requirements.txt
 Place the `Vaccination project/` folder in the same directory as the notebook, then run:
 
 ```bash
-jupyter notebook Vaccination_Analysis.ipynb
+jupyter notebook Global_Vaccination_Analytics.ipynb
 ```
 
 Run all cells top to bottom. This generates `database/vaccination.db` and all 15 chart images in `images/`.
@@ -219,11 +219,11 @@ Run all cells top to bottom. This generates `database/vaccination.db` and all 15
 | Tool | Version | Purpose |
 |------|---------|---------|
 | Python | 3.10+ | Data processing, EDA, and SQL database creation |
-| pandas | >=2.0.0 | DataFrame operations, groupby, merge, read_excel |
-| numpy | >=1.24.0 | Numerical operations and quantile calculations |
-| matplotlib | >=3.7.0 | All 15 static chart generations |
-| seaborn | >=0.12.0 | Heatmaps and correlation visualizations |
-| openpyxl | >=3.1.0 | Reading .xlsx dataset files |
+| pandas | 3.0.2 | DataFrame operations, groupby, merge, read_excel |
+| numpy | 2.4.4 | Numerical operations and quantile calculations |
+| matplotlib | 3.10.8 | All 15 static chart generations |
+| seaborn | 0.13.2 | Heatmaps and correlation visualizations |
+| openpyxl | 3.1.5 | Reading .xlsx dataset files |
 | sqlite3 | Built-in | SQL database creation and 7 analytical queries |
 | Power BI Desktop | Latest | 4-page interactive dashboard |
 | SQLite ODBC Driver | Latest | Connecting Power BI to vaccination.db |
@@ -232,13 +232,13 @@ Run all cells top to bottom. This generates `database/vaccination.db` and all 15
 
 ## Author
 
-**MOHIT SINGH RAJPUT — AI/ML Engineer**
+**Ishank — AI/ML Engineer**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohitsingh1307)
-[![GitHub](https://img.shields.io/badge/GitHub-121011?style=flat-square&logo=github&logoColor=white)](https://github.com/Mohit-1307)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/mohitsinghrajput1307)
-[![LeetCode](https://img.shields.io/badge/LeetCode-181717?style=flat-square&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/MOHIT_SINGH_RAJPUT/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:mohitsinghrajput1307@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/Ishank2301)
+[![GitHub](https://img.shields.io/badge/GitHub-121011?style=flat-square&logo=github&logoColor=white)](https://github.com/Ishank2301)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/Ishank2301)
+[![LeetCode](https://img.shields.io/badge/LeetCode-181717?style=flat-square&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/Ishank2301/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ishankmishra579@gmail.com)
 
 
 ---
